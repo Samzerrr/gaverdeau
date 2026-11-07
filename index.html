@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaver d'eau | Plomberie, Chauffage, Climatisation & Froid à Bordeaux (33)</title>
+  <meta name="description" content="Gaver d'eau, entreprise experte depuis plus de 10 ans en plomberie, chauffage, climatisation et froid à Bordeaux (33000) et agglomération. Urgences 24h/24 & 7j/7, devis gratuit.">
+  <meta name="keywords" content="plomberie bordeaux, chauffage bordeaux, climatisation bordeaux, frigoriste bordeaux, dépannage plomberie 33000, pompe à chaleur bordeaux, gaver d'eau">
+  <meta name="author" content="Gaver d'eau">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Gaver d'eau | Plomberie, Chauffage, Climatisation & Froid">
+  <meta property="og:description" content="Experts en plomberie, chauffage, climatisation et solutions frigorifiques. Intervention rapide et devis gratuit.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/logo.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="preloader-active">
+
+  <!-- ===================== PRELOADER ===================== -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__bg"></div>
+    <div class="preloader__content">
+      <div class="preloader__logo-wrap">
+        <div class="preloader__glow"></div>
+        <svg class="preloader__ring" viewBox="0 0 120 120">
+          <defs>
+            <linearGradient id="preloader-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#2563eb"/>
+              <stop offset="100%" stop-color="#60a5fa"/>
+            </linearGradient>
+          </defs>
+          <circle class="preloader__ring-bg" cx="60" cy="60" r="56"/>
+          <circle class="preloader__ring-fill" id="preloader-ring" cx="60" cy="60" r="56"/>
+        </svg>
+        <img src="img/logo.png" alt="Gaver d'eau" class="preloader__logo">
+      </div>
+      <div class="preloader__info">
+        <h2 class="preloader__title">Gaver d'eau</h2>
+        <p class="preloader__tagline">Vos héros du quotidien</p>
+      </div>
+      <div class="preloader__progress">
+        <div class="preloader__bar">
+          <div class="preloader__bar-fill" id="preloader-bar"></div>
+        </div>
+        <span class="preloader__pct" id="preloader-pct">0%</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="header" id="header">
+    <div class="container header__container">
+      <a href="#hero" class="header__logo">
+        <img src="img/logo.png" alt="Logo Gaver d'eau" class="header__logo-img">
+        <div class="header__logo-text-group">
+          <span class="header__logo-text">Gaver d'eau</span>
+          <span class="header__logo-tagline">Vos héros du quotidien</span>
+        </div>
+      </a>
+
+      <nav class="header__nav" id="navbar">
+        <ul class="header__nav-list">
+          <li><a href="#hero" class="header__nav-link active">Accueil</a></li>
+          <li><a href="#services" class="header__nav-link">Services</a></li>
+          <li><a href="#about" class="header__nav-link">À propos</a></li>
+          <li><a href="#why-us" class="header__nav-link">Avantages</a></li>
+          <li><a href="#gallery" class="header__nav-link">Réalisations</a></li>
+          <li><a href="#contact" class="header__nav-link">Contact</a></li>
+        </ul>
+        <div class="header__nav-mobile-cta">
+          <a href="tel:+33616445063" class="btn btn--outline btn--lg">
+            <i class="fa-solid fa-phone"></i>
+            06 16 44 50 63
+          </a>
+          <a href="#devis" class="btn btn--primary btn--lg">
+            <i class="fa-solid fa-file-lines"></i>
+            Devis gratuit
+          </a>
+        </div>
+      </nav>
+
+      <div class="header__actions">
+        <a href="tel:+33616445063" class="header__phone">
+          <i class="fa-solid fa-phone"></i>
+          <span>06 16 44 50 63</span>
+        </a>
+        <a href="#devis" class="btn btn--primary btn--sm header__cta">Devis gratuit</a>
+      </div>
+
+      <button class="header__mobile-toggle" id="mobile-toggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg">
+        <video class="hero__video" autoplay loop muted playsinline poster="img/logo.png">
+          <source src="vdo/video.mp4" type="video/mp4">
+        </video>
+        <div class="hero__bg-overlay"></div>
+        <div class="hero__bg-pattern"></div>
+      </div>
+      <div class="container hero__container">
+        <div class="hero__grid">
+          <div class="hero__content" data-reveal>
+            <div class="hero__badge">
+              <i class="fa-solid fa-shield-halved"></i>
+              Gaver d'eau • Vos héros du quotidien
+            </div>
+            <h1 class="hero__title">
+              Votre confort, notre
+              <span class="hero__title-accent">expertise</span>
+              au quotidien
+            </h1>
+            <p class="hero__subtitle">
+              Experts en plomberie, chauffage, climatisation et solutions frigorifiques, 
+              nous vous accompagnons dans tous vos projets avec réactivité, 
+              professionnalisme et un travail de qualité.
+            </p>
+            <div class="hero__buttons">
+              <a href="#devis" class="btn btn--primary btn--lg">
+                <i class="fa-solid fa-file-lines"></i>
+                Demander un devis gratuit
+              </a>
+              <a href="#contact" class="btn btn--outline btn--lg">
+                <i class="fa-solid fa-headset"></i>
+                Nous contacter
+              </a>
+            </div>
+          </div>
+
+          <div class="hero__visual" data-reveal data-reveal-delay="150">
+            <div class="hero__logo-wrapper">
+              <div class="hero__logo-glow"></div>
+              <img src="img/logo.png" alt="Logo officiel Gaver d'eau - Vos héros du quotidien" class="hero__logo-card">
+              <div class="hero__floating-badge hero__floating-badge--top">
+                <i class="fa-solid fa-bolt"></i>
+                <div>
+                  <strong>Dépannage 24/7</strong>
+                  <span>Intervention rapide</span>
+                </div>
+              </div>
+              <div class="hero__floating-badge hero__floating-badge--bottom">
+                <i class="fa-solid fa-award"></i>
+                <div>
+                  <strong>Artisans Qualifiés</strong>
+                  <span>Garantie décennale</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__stats" data-reveal data-reveal-delay="250">
+          <div class="hero__stat">
+            <div class="hero__stat-number" data-count="10">0</div>
+            <div class="hero__stat-label">Années d'expérience</div>
+          </div>
+          <div class="hero__stat">
+            <div class="hero__stat-number" data-count="1500">0</div>
+            <div class="hero__stat-label">Clients satisfaits</div>
+          </div>
+          <div class="hero__stat">
+            <div class="hero__stat-number" data-count="2000">0</div>
+            <div class="hero__stat-label">Interventions réalisées</div>
+          </div>
+          <div class="hero__stat">
+            <div class="hero__stat-number">24<span class="hero__stat-unit">h</span></div>
+            <div class="hero__stat-label">Délai d'intervention</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__scroll">
+        <a href="#services" aria-label="Défiler vers les services">
+          <i class="fa-solid fa-chevron-down"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-header__tag">Nos expertises</span>
+          <h2 class="section-header__title">Nos Services</h2>
+          <p class="section-header__desc">
+            Des solutions complètes et professionnelles pour tous vos besoins en plomberie, 
+            chauffage, climatisation et froid.
+          </p>
+        </div>
+
+        <div class="services__grid">
+          <!-- Plomberie -->
+          <article class="service-card" data-reveal data-reveal-delay="0">
+            <div class="service-card__icon-wrap">
+              <div class="service-card__icon">
+                <i class="fa-solid fa-faucet-drip"></i>
+              </div>
+              <div class="service-card__icon-bg"></div>
+            </div>
+            <h3 class="service-card__title">Plomberie</h3>
+            <p class="service-card__desc">Installation, réparation et entretien de toutes vos installations sanitaires avec expertise et précision.</p>
+            <ul class="service-card__list">
+              <li><i class="fa-solid fa-check"></i> Installation sanitaire</li>
+              <li><i class="fa-solid fa-check"></i> Recherche et réparation de fuites</li>
+              <li><i class="fa-solid fa-check"></i> Dépannage plomberie</li>
+              <li><i class="fa-solid fa-check"></i> Rénovation de salle de bain</li>
+              <li><i class="fa-solid fa-check"></i> Installation de chauffe-eau</li>
+              <li><i class="fa-solid fa-check"></i> Entretien des installations</li>
+            </ul>
+            <a href="#devis" class="service-card__btn">
+              En savoir plus
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </article>
+
+          <!-- Chauffage -->
+          <article class="service-card" data-reveal data-reveal-delay="100">
+            <div class="service-card__icon-wrap">
+              <div class="service-card__icon">
+                <i class="fa-solid fa-fire-flame-curved"></i>
+              </div>
+              <div class="service-card__icon-bg"></div>
+            </div>
+            <h3 class="service-card__title">Chauffage</h3>
+            <p class="service-card__desc">Des solutions de chauffage performantes et économes en énergie pour votre confort toute l'année.</p>
+            <ul class="service-card__list">
+              <li><i class="fa-solid fa-check"></i> Installation de chaudières</li>
+              <li><i class="fa-solid fa-check"></i> Installation de pompes à chaleur</li>
+              <li><i class="fa-solid fa-check"></i> Entretien et dépannage</li>
+              <li><i class="fa-solid fa-check"></i> Remplacement de systèmes</li>
+              <li><i class="fa-solid fa-check"></i> Optimisation énergétique</li>
+            </ul>
+            <a href="#devis" class="service-card__btn">
+              En savoir plus
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </article>
+
+          <!-- Climatisation -->
+          <article class="service-card" data-reveal data-reveal-delay="200">
+            <div class="service-card__icon-wrap">
+              <div class="service-card__icon">
+                <i class="fa-solid fa-snowflake"></i>
+              </div>
+              <div class="service-card__icon-bg"></div>
+            </div>
+            <h3 class="service-card__title">Climatisation</h3>
+            <p class="service-card__desc">Installation et maintenance de systèmes de climatisation adaptés à vos espaces et vos besoins.</p>
+            <ul class="service-card__list">
+              <li><i class="fa-solid fa-check"></i> Installation de climatisation</li>
+              <li><i class="fa-solid fa-check"></i> Climatisation réversible</li>
+              <li><i class="fa-solid fa-check"></i> Entretien et nettoyage</li>
+              <li><i class="fa-solid fa-check"></i> Dépannage et réparation</li>
+              <li><i class="fa-solid fa-check"></i> Solutions particuliers & pros</li>
+            </ul>
+            <a href="#devis" class="service-card__btn">
+              En savoir plus
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </article>
+
+          <!-- Froid -->
+          <article class="service-card" data-reveal data-reveal-delay="300">
+            <div class="service-card__icon-wrap">
+              <div class="service-card__icon">
+                <i class="fa-solid fa-temperature-low"></i>
+              </div>
+              <div class="service-card__icon-bg"></div>
+            </div>
+            <h3 class="service-card__title">Froid / Frigoriste</h3>
+            <p class="service-card__desc">Solutions de réfrigération professionnelles pour garantir la conservation optimale de vos produits.</p>
+            <ul class="service-card__list">
+              <li><i class="fa-solid fa-check"></i> Installation frigorifique</li>
+              <li><i class="fa-solid fa-check"></i> Maintenance des équipements</li>
+              <li><i class="fa-solid fa-check"></i> Dépannage frigorifique</li>
+              <li><i class="fa-solid fa-check"></i> Chambres froides</li>
+              <li><i class="fa-solid fa-check"></i> Réfrigération professionnelle</li>
+            </ul>
+            <a href="#devis" class="service-card__btn">
+              En savoir plus
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__image-col" data-reveal>
+            <div class="about__image-wrapper">
+              <div class="about__image">
+                <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=700&h=900&fit=crop&q=80" 
+                     alt="Technicien Gaver d'eau en intervention" 
+                     loading="lazy">
+              </div>
+              <div class="about__image-badge">
+                <span class="about__image-badge-number">10+</span>
+                <span class="about__image-badge-text">Années<br>d'expérience</span>
+              </div>
+              <div class="about__image-accent"></div>
+            </div>
+          </div>
+
+          <div class="about__content-col" data-reveal data-reveal-delay="200">
+            <span class="section-header__tag">Qui sommes-nous</span>
+            <h2 class="about__title">Un savoir-faire reconnu au service de votre confort</h2>
+            <p class="about__text">
+              Grâce à son <strong>savoir-faire</strong> et à son <strong>expérience de plus de 10 ans</strong>, la société <strong>Gaver d’Eau</strong> met votre confort au cœur de ses priorités.
+            </p>
+            <p class="about__text">
+              Notre équipe de plombiers, chauffagistes et frigoristes qualifiés intervient pour tous vos besoins en <strong>installation, entretien et réparation</strong>, en vous garantissant des prestations fiables et durables.
+            </p>
+            <p class="about__text">
+              Attachés à la qualité de notre travail, nous veillons à intervenir avec <strong>rigueur, ponctualité et professionnalisme</strong>, afin de vous assurer un service à la hauteur de vos attentes et une totale tranquillité d’esprit.
+            </p>
+            <p class="about__text about__text--highlight">
+              <i class="fa-solid fa-clock-rotate-left"></i>
+              <strong>Service d’urgence disponible 24h/24 et 7j/7</strong>, pour répondre rapidement à toutes vos situations imprévues.
+            </p>
+
+            <div class="about__features">
+              <div class="about__feature">
+                <div class="about__feature-icon">
+                  <i class="fa-solid fa-medal"></i>
+                </div>
+                <div>
+                  <h4>Savoir-faire & Expérience</h4>
+                  <p>Des techniciens certifiés et expérimentés</p>
+                </div>
+              </div>
+              <div class="about__feature">
+                <div class="about__feature-icon">
+                  <i class="fa-solid fa-handshake"></i>
+                </div>
+                <div>
+                  <h4>Écoute & Accompagnement</h4>
+                  <p>Un suivi personnalisé de A à Z</p>
+                </div>
+              </div>
+              <div class="about__feature">
+                <div class="about__feature-icon">
+                  <i class="fa-solid fa-clock"></i>
+                </div>
+                <div>
+                  <h4>Respect des délais</h4>
+                  <p>Ponctualité et rigueur garanties</p>
+                </div>
+              </div>
+              <div class="about__feature">
+                <div class="about__feature-icon">
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div>
+                  <h4>Qualité irréprochable</h4>
+                  <p>Matériaux premium et finitions soignées</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WHY US ===================== -->
+    <section class="why-us" id="why-us">
+      <div class="container">
+        <div class="section-header section-header--light" data-reveal>
+          <span class="section-header__tag">Nos engagements</span>
+          <h2 class="section-header__title">Pourquoi nous choisir ?</h2>
+          <p class="section-header__desc">
+            Des engagements forts pour une relation de confiance durable avec chacun de nos clients.
+          </p>
+        </div>
+
+        <div class="why-us__grid">
+          <div class="advantage-card" data-reveal data-reveal-delay="0">
+            <div class="advantage-card__icon">
+              <i class="fa-solid fa-gem"></i>
+            </div>
+            <h3 class="advantage-card__title">Travail soigné</h3>
+            <p class="advantage-card__text">Un travail méticuleux et professionnel, réalisé dans les règles de l'art pour un résultat durable.</p>
+          </div>
+
+          <div class="advantage-card" data-reveal data-reveal-delay="100">
+            <div class="advantage-card__icon">
+              <i class="fa-solid fa-bolt"></i>
+            </div>
+            <h3 class="advantage-card__title">Intervention rapide</h3>
+            <p class="advantage-card__text">Une réactivité exemplaire pour répondre à vos urgences et besoins dans les meilleurs délais.</p>
+          </div>
+
+          <div class="advantage-card" data-reveal data-reveal-delay="200">
+            <div class="advantage-card__icon">
+              <i class="fa-solid fa-file-invoice"></i>
+            </div>
+            <h3 class="advantage-card__title">Devis gratuit & transparent</h3>
+            <p class="advantage-card__text">Des devis détaillés et sans surprise, pour que vous puissiez prendre votre décision en toute sérénité.</p>
+          </div>
+
+          <div class="advantage-card" data-reveal data-reveal-delay="300">
+            <div class="advantage-card__icon">
+              <i class="fa-solid fa-comments"></i>
+            </div>
+            <h3 class="advantage-card__title">Conseils personnalisés</h3>
+            <p class="advantage-card__text">Des recommandations sur mesure adaptées à votre projet, vos contraintes et votre budget.</p>
+          </div>
+
+          <div class="advantage-card" data-reveal data-reveal-delay="400">
+            <div class="advantage-card__icon">
+              <i class="fa-solid fa-wallet"></i>
+            </div>
+            <h3 class="advantage-card__title">Adapté à chaque budget</h3>
+            <p class="advantage-card__text">Des solutions flexibles et compétitives, sans compromis sur la qualité des prestations.</p>
+          </div>
+
+          <div class="advantage-card" data-reveal data-reveal-delay="500">
+            <div class="advantage-card__icon">
+              <i class="fa-solid fa-arrows-spin"></i>
+            </div>
+            <h3 class="advantage-card__title">Accompagnement de A à Z</h3>
+            <p class="advantage-card__text">De l'étude de votre projet à la livraison finale, nous sommes à vos côtés à chaque étape.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GALLERY ===================== -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-header__tag">Notre portfolio</span>
+          <h2 class="section-header__title">Nos Réalisations</h2>
+          <p class="section-header__desc">
+            Découvrez quelques-unes de nos réalisations et laissez-vous inspirer 
+            par la qualité de notre travail.
+          </p>
+        </div>
+
+        <div class="gallery__filters" data-reveal>
+          <button class="gallery__filter active" data-filter="all">Toutes</button>
+          <button class="gallery__filter" data-filter="plomberie">Plomberie</button>
+          <button class="gallery__filter" data-filter="chauffage">Chauffage</button>
+          <button class="gallery__filter" data-filter="climatisation">Climatisation</button>
+          <button class="gallery__filter" data-filter="froid">Froid</button>
+        </div>
+
+        <div class="gallery__grid">
+          <div class="gallery__item" data-category="plomberie" data-reveal data-reveal-delay="0">
+            <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&h=450&fit=crop&q=80" 
+                 alt="Rénovation salle de bain moderne" loading="lazy">
+            <div class="gallery__overlay">
+              <span class="gallery__overlay-tag">Plomberie</span>
+              <h4>Rénovation salle de bain</h4>
+              <p>Création complète d'une salle de bain moderne</p>
+            </div>
+          </div>
+
+          <div class="gallery__item gallery__item--tall" data-category="chauffage" data-reveal data-reveal-delay="100">
+            <img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&h=700&fit=crop&q=80" 
+                 alt="Installation chaudière haute performance" loading="lazy">
+            <div class="gallery__overlay">
+              <span class="gallery__overlay-tag">Chauffage</span>
+              <h4>Installation chaudière</h4>
+              <p>Pose d'une chaudière à condensation haute performance</p>
+            </div>
+          </div>
+
+          <div class="gallery__item" data-category="climatisation" data-reveal data-reveal-delay="200">
+            <img src="https://images.unsplash.com/photo-1631545806609-35dab2cad271?w=600&h=450&fit=crop&q=80" 
+                 alt="Installation climatisation réversible" loading="lazy">
+            <div class="gallery__overlay">
+              <span class="gallery__overlay-tag">Climatisation</span>
+              <h4>Climatisation réversible</h4>
+              <p>Installation d'un système réversible multi-split</p>
+            </div>
+          </div>
+
+          <div class="gallery__item" data-category="plomberie" data-reveal data-reveal-delay="100">
+            <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=450&fit=crop&q=80" 
+                 alt="Installation sanitaire haut de gamme" loading="lazy">
+            <div class="gallery__overlay">
+              <span class="gallery__overlay-tag">Plomberie</span>
+              <h4>Installation sanitaire</h4>
+              <p>Pose d'équipements sanitaires haut de gamme</p>
+            </div>
+          </div>
+
+          <div class="gallery__item" data-category="froid" data-reveal data-reveal-delay="200">
+            <img src="https://images.unsplash.com/photo-1504387103978-e4ee71416c38?w=600&h=450&fit=crop&q=80" 
+                 alt="Installation chambre froide professionnelle" loading="lazy">
+            <div class="gallery__overlay">
+              <span class="gallery__overlay-tag">Froid</span>
+              <h4>Chambre froide</h4>
+              <p>Installation d'une chambre froide professionnelle</p>
+            </div>
+          </div>
+
+          <div class="gallery__item gallery__item--tall" data-category="chauffage" data-reveal data-reveal-delay="0">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&h=700&fit=crop&q=80" 
+                 alt="Installation pompe à chaleur" loading="lazy">
+            <div class="gallery__overlay">
+              <span class="gallery__overlay-tag">Chauffage</span>
+              <h4>Pompe à chaleur</h4>
+              <p>Installation d'une pompe à chaleur air/eau</p>
+            </div>
+          </div>
+
+          <div class="gallery__item" data-category="climatisation" data-reveal data-reveal-delay="100">
+            <img src="https://images.unsplash.com/photo-1635048424329-a9bfb146d7aa?w=600&h=450&fit=crop&q=80" 
+                 alt="Climatisation bureaux professionnels" loading="lazy">
+            <div class="gallery__overlay">
+              <span class="gallery__overlay-tag">Climatisation</span>
+              <h4>Climatisation tertiaire</h4>
+              <p>Climatisation centralisée pour locaux professionnels</p>
+            </div>
+          </div>
+
+          <div class="gallery__item" data-category="froid" data-reveal data-reveal-delay="200">
+            <img src="https://images.unsplash.com/photo-1567449303183-ae0d6ed1498e?w=600&h=450&fit=crop&q=80" 
+                 alt="Système de réfrigération commerciale" loading="lazy">
+            <div class="gallery__overlay">
+              <span class="gallery__overlay-tag">Froid</span>
+              <h4>Réfrigération commerciale</h4>
+              <p>Solution de réfrigération pour commerce alimentaire</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== DEVIS ===================== -->
+    <section class="quote-section" id="devis">
+      <div class="container">
+        <div class="quote__grid">
+          <div class="quote__info" data-reveal>
+            <span class="section-header__tag">Estimation gratuite</span>
+            <h2 class="quote__title">Demandez votre devis gratuit</h2>
+            <p class="quote__text">
+              Décrivez-nous votre projet et recevez une estimation détaillée et sans engagement. 
+              Notre équipe vous répondra dans les meilleurs délais.
+            </p>
+
+            <div class="quote__guarantees">
+              <div class="quote__guarantee">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Réponse sous 24h</span>
+              </div>
+              <div class="quote__guarantee">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Devis gratuit & sans engagement</span>
+              </div>
+              <div class="quote__guarantee">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Prix transparent, aucun frais caché</span>
+              </div>
+              <div class="quote__guarantee">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Conseils personnalisés inclus</span>
+              </div>
+            </div>
+
+            <div class="quote__contact-card">
+              <div class="quote__contact-card-icon">
+                <i class="fa-solid fa-phone-volume"></i>
+              </div>
+              <div>
+                <p class="quote__contact-card-label">Besoin d'une réponse immédiate ?</p>
+                <a href="tel:+33616445063" class="quote__contact-card-phone">06 16 44 50 63</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="quote__form-wrap" data-reveal data-reveal-delay="200">
+            <form class="quote__form" id="quote-form" action="https://formspree.io/f/mnjogdrb" method="POST" novalidate>
+              <div class="form__row">
+                <div class="form__group">
+                  <label for="form-lastname" class="form__label">Nom *</label>
+                  <input type="text" id="form-lastname" name="nom" class="form__input" placeholder="Votre nom" required>
+                </div>
+                <div class="form__group">
+                  <label for="form-firstname" class="form__label">Prénom *</label>
+                  <input type="text" id="form-firstname" name="prenom" class="form__input" placeholder="Votre prénom" required>
+                </div>
+              </div>
+
+              <div class="form__row">
+                <div class="form__group">
+                  <label for="form-phone" class="form__label">Téléphone *</label>
+                  <input type="tel" id="form-phone" name="telephone" class="form__input" placeholder="06 16 44 50 63" required>
+                </div>
+                <div class="form__group">
+                  <label for="form-email" class="form__label">E-mail *</label>
+                  <input type="email" id="form-email" name="email" class="form__input" placeholder="votre@email.com" required>
+                </div>
+              </div>
+
+              <div class="form__group">
+                <label for="form-service" class="form__label">Type de prestation *</label>
+                <select id="form-service" name="prestation" class="form__select" required>
+                  <option value="" disabled selected>Sélectionnez une prestation</option>
+                  <option value="plomberie">Plomberie</option>
+                  <option value="chauffage">Chauffage</option>
+                  <option value="climatisation">Climatisation</option>
+                  <option value="froid">Froid / Frigoriste</option>
+                  <option value="autre">Autre</option>
+                </select>
+              </div>
+
+              <div class="form__group">
+                <label for="form-address" class="form__label">Adresse du chantier <span class="form__optional">(facultatif)</span></label>
+                <input type="text" id="form-address" name="adresse" class="form__input" placeholder="Adresse du lieu d'intervention">
+              </div>
+
+              <div class="form__group">
+                <label for="form-message" class="form__label">Description du besoin *</label>
+                <textarea id="form-message" name="message" class="form__textarea" rows="5" placeholder="Décrivez votre projet ou votre besoin..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--lg form__submit">
+                <i class="fa-solid fa-paper-plane"></i>
+                Envoyer ma demande
+              </button>
+
+              <p class="form__notice">
+                <i class="fa-solid fa-lock"></i>
+                Vos données sont protégées et ne seront jamais partagées.
+              </p>
+            </form>
+
+            <!-- Success message -->
+            <div class="quote__success" id="form-success" hidden>
+              <div class="quote__success-icon">
+                <i class="fa-solid fa-circle-check"></i>
+              </div>
+              <h3>Demande envoyée avec succès !</h3>
+              <p>Votre demande sera étudiée dans les meilleurs délais. Notre équipe vous recontactera très rapidement.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="section-header__tag">Restons en contact</span>
+          <h2 class="section-header__title">Contactez-nous</h2>
+          <p class="section-header__desc">
+            N'hésitez pas à nous contacter pour toute question ou demande d'information. 
+            Nous sommes à votre écoute.
+          </p>
+        </div>
+
+        <div class="contact__grid">
+          <div class="contact__cards" data-reveal>
+            <div class="contact__card">
+              <div class="contact__card-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <h4>Téléphone</h4>
+              <a href="tel:+33616445063">06 16 44 50 63</a>
+              <p class="contact__card-note">Disponible 24h/24 & 7j/7 pour urgences</p>
+            </div>
+
+            <div class="contact__card">
+              <div class="contact__card-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <h4>E-mail</h4>
+              <a href="mailto:gaver.deau@gmail.com">gaver.deau@gmail.com</a>
+              <p class="contact__card-note">Réponse sous 24h</p>
+            </div>
+
+            <div class="contact__card">
+              <div class="contact__card-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <h4>Zone d'intervention</h4>
+              <p><strong>De La Rochelle à Biarritz</strong><br>Bordeaux, Charente-Maritime, Gironde, Landes & Pays Basque</p>
+            </div>
+
+            <div class="contact__card">
+              <div class="contact__card-icon">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <h4>Horaires</h4>
+              <p>Lun – Ven : 8h00 – 19h00<br>Sam : 9h00 – 17h00</p>
+              <p class="contact__card-note">Service d'urgence 24h/24 & 7j/7</p>
+            </div>
+          </div>
+
+          <div class="contact__map-wrap" data-reveal data-reveal-delay="200">
+            <div class="contact__map-badge">
+              <i class="fa-solid fa-location-dot"></i>
+              <span><strong>Zone d'intervention :</strong> De La Rochelle jusqu'à Biarritz</span>
+            </div>
+            <div class="contact__map">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1450000!2d-1.25!3d44.82!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527e8f751ca81%3A0x796386037b397a89!2sNouvelle-Aquitaine!5e0!3m2!1sfr!2sfr!4v1710000000000!5m2!1sfr!2sfr"
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Zone d'intervention Gaver d'eau - De La Rochelle jusqu'à Biarritz">
+              </iframe>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bouton d'appel mobile flottant -->
+        <a href="tel:+33616445063" class="contact__mobile-call" aria-label="Appeler maintenant">
+          <i class="fa-solid fa-phone"></i>
+          <span>06 16 44 50 63</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__col footer__col--about">
+          <a href="#hero" class="footer__logo">
+            <img src="img/logo.png" alt="Logo Gaver d'eau" class="footer__logo-img">
+            <div class="footer__logo-text-group">
+              <span class="footer__logo-text">Gaver d'eau</span>
+              <span class="footer__logo-tagline">Vos héros du quotidien</span>
+            </div>
+          </a>
+          <p class="footer__desc">
+            Spécialistes en plomberie, chauffage, climatisation et froid depuis plus de 10 ans. 
+            Vos héros du quotidien au service de votre sérénité de La Rochelle jusqu'à Biarritz.
+          </p>
+        </div>
+
+        <div class="footer__col">
+          <h4 class="footer__heading">Navigation</h4>
+          <ul class="footer__links">
+            <li><a href="#hero">Accueil</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#gallery">Réalisations</a></li>
+            <li><a href="#devis">Demander un devis</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4 class="footer__heading">Nos prestations</h4>
+          <ul class="footer__links">
+            <li><a href="#services">Plomberie</a></li>
+            <li><a href="#services">Chauffage</a></li>
+            <li><a href="#services">Climatisation</a></li>
+            <li><a href="#services">Froid / Frigoriste</a></li>
+            <li><a href="#services">Dépannage urgent 24/7</a></li>
+            <li><a href="#services">Entretien & maintenance</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4 class="footer__heading">Coordonnées</h4>
+          <ul class="footer__contact">
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <span>De La Rochelle à Biarritz<br>Bordeaux & tout le littoral</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+33616445063">06 16 44 50 63</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:gaver.deau@gmail.com">gaver.deau@gmail.com</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-clock"></i>
+              <span>Urgences 24h/24 & 7j/7</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2026 Gaver d'eau — Vos héros du quotidien. Tous droits réservés.</p>
+        <div class="footer__bottom-links">
+          <a href="mentions-legales.html">Mentions légales</a>
+          <a href="politique-confidentialite.html">Politique de confidentialité</a>
+          <a href="cgv.html">CGV</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Retour en haut">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
