@@ -2012,91 +2012,20 @@ input, select, textarea {
   box-shadow: var(--shadow-xl);
   border: 1px solid var(--clr-gray-200);
   background: var(--clr-white);
-  display: flex;
-  flex-direction: column;
   min-height: 480px;
-}
-
-.contact__map-badge {
   position: relative;
-  z-index: 2;
-  background: linear-gradient(135deg, #071322 0%, #0d2038 50%, #0a1b30 100%);
-  color: var(--clr-white);
-  padding: 14px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--sp-3);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 
-    inset 0 1px 0 rgba(255, 255, 255, 0.15),
-    0 4px 15px rgba(0, 0, 0, 0.25);
-}
-
-.contact__map-badge-info {
-  display: flex;
-  align-items: center;
-  gap: var(--sp-2);
-  font-size: var(--fs-xs);
-  color: rgba(255, 255, 255, 0.9);
-}
-
-.contact__map-badge-info i {
-  color: #38bdf8;
-  font-size: var(--fs-sm);
-  filter: drop-shadow(0 0 6px rgba(56, 189, 248, 0.6));
-  flex-shrink: 0;
-}
-
-.contact__map-badge-info strong {
-  color: var(--clr-white);
-  font-weight: 700;
-}
-
-.contact__map-badge-tag {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 4px 10px;
-  border-radius: var(--radius-full);
-  background: rgba(56, 189, 248, 0.12);
-  border: 1px solid rgba(56, 189, 248, 0.3);
-  color: #38bdf8;
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.03em;
-  white-space: nowrap;
-}
-
-.contact__map-badge-tag .pulse-dot {
-  width: 6px;
-  height: 6px;
-  background: #22c55e;
-  border-radius: 50%;
-  box-shadow: 0 0 8px #22c55e;
-  animation: pulseRadar 2s infinite;
-}
-
-@media (max-width: 540px) {
-  .contact__map-badge {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-    padding: 12px 16px;
-  }
 }
 
 .contact__map {
   width: 100%;
-  flex: 1;
-  min-height: 420px;
-  position: relative;
+  height: 100%;
+  min-height: 480px;
 }
 
 .contact__map iframe {
   width: 100%;
   height: 100%;
-  min-height: 420px;
+  min-height: 480px;
   border: 0;
   display: block;
 }
